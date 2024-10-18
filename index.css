@@ -1,0 +1,1600 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mainHeader {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 600px;
+    background-image: url('./images/banner-bg.png');
+}
+
+.headerChild {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    /* height: 200px; */
+    /* margin-top: 0px; */
+    line-height: 2;
+    color: white;
+    font-size: 18px;
+    padding-top: 100px;
+}
+
+.headerChild>div {
+    margin-top: 15px;
+}
+
+.headerChild>div>button {
+    width: 20%;
+    height: 50px;
+    border-radius: 68px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+}
+
+.headerChild>div>button:hover {
+    background-color: #bf3d42;
+    color: white;
+}
+
+.aboutMain {
+    /* border: 1px solid; */
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 55px;
+}
+
+.aboutChildOne {
+    /* border: 1px solid; */
+    margin-top: 100px;
+    margin-left: 35px;
+    width: 48%;
+}
+
+/* .aboutChildOne>div {
+    display: flex;
+    } */
+
+.aboutChildOne>div:nth-child(1) {
+    display: flex;
+}
+
+
+
+.aboutChildOne>div>h1 {
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+.aboutChildOne>p {
+    padding-top: 20px;
+    line-height: 1.6;
+}
+
+.aboutChildOne>div>button {
+    width: 30%;
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 15px;
+    background-color: #bf3d42;
+    color: white;
+    border: none;
+}
+
+.aboutChildOne>div>button:hover {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+
+.aboutChildTwo {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.aboutChildTwo>div>img {
+    width: 110%;
+    height: 350px;
+}
+
+
+.gameMain {
+    /* border: 1px solid; */
+    width: 80%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+.gameMain>div {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 20px;
+}
+
+.gameMain>div>h1 {
+    font-size: 40px;
+}
+
+.gameMain>p {
+    text-align: center;
+    line-height: 3;
+}
+
+
+.cardMain {
+    /* border: 1px solid; */
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    gap: 34px;
+    margin-top: 40px;
+}
+
+.cardMain>div:nth-child(1) {
+    background-image: url(./images/img-2.png);
+    height: 578px;
+    width: 22.9%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.cardMain>div:nth-child(2) {
+    background-image: url(./images/img-3.png);
+    height: 485px;
+    width: 22.9%;
+    border-radius: 30px;
+
+
+}
+
+.cardMain>div:nth-child(3) {
+    background-image: url(./images/img-4.png);
+    height: 380px;
+    width: 22.9%;
+    border-radius: 30px;
+
+}
+
+.cardMain>div:nth-child(4) {
+    background-image: url(./images/img-5.png);
+    height: 340px;
+    width: 21.9%;
+    border-radius: 30px;
+
+}
+
+.oneImage>div {
+    text-align: center;
+    /* padding-top: 375px; */
+    color: white;
+
+}
+
+.twoImage>div {
+    text-align: center;
+    /* padding-top: 275px; */
+    color: white;
+}
+
+.threeImage>div {
+    text-align: center;
+    /* padding-top: 194px; */
+    color: white;
+}
+
+.fourImage>div {
+    text-align: center;
+    /* padding-top: 160px; */
+    color: white;
+}
+
+.fourPlay>button {
+    margin-top: 59px;
+    /* margin-left: 77px; */
+    width: 50%;
+    border-radius: 24px;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    border: 3px solid #bf3d42;
+    height: 45px;
+}
+
+.fourPlay>button:hover {
+    background-color: #bf3d42;
+    color: white;
+    border: 1px solid black;
+}
+
+
+.threePlay>button {
+    margin-top: 59px;
+    /* margin-left: 77px; */
+    width: 50%;
+    border-radius: 24px;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    border: 3px solid #bf3d42;
+    height: 45px;
+}
+
+.threePlay>button:hover {
+    background-color: #bf3d42;
+    color: white;
+    border: 1px solid black;
+}
+
+.twoPlay>button {
+    /* margin-left: 70px; */
+    width: 50%;
+    border-radius: 24px;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    border: 3px solid #bf3d42;
+    height: 45px;
+}
+
+.twoPlay>button:hover {
+    background-color: #bf3d42;
+    color: white;
+    border: 1px solid black;
+}
+
+
+.onePlay>button {
+    margin-left: 0px;
+    width: 50%;
+    border-radius: 24px;
+    margin-top: 80px;
+    background-color: #bf3d42;
+    color: white;
+    border: 3px solid #bf3d42;
+    height: 45px;
+}
+
+.onePlay {
+    /* padding-top: 12px; */
+    margin: auto;
+    margin-top: 30px;
+}
+
+.cardMain>div>div>h1 {
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.cardMain>div>div>p {
+    font-size: 13px;
+    line-height: 2;
+}
+
+.oneImage>div>div {
+    border: 3px solid #bf3d42;
+    height: 50px;
+    width: 50px;
+    border-radius: 63px;
+    margin-left: 112px;
+    background-color: black;
+    margin-top: 367px;
+}
+
+.oneImage>div>div>h1 {
+    margin-top: 9px;
+    font-size: 25px;
+}
+
+.twoImage>div>div {
+    border: 3px solid #bf3d42;
+    height: 50px;
+    width: 50px;
+    border-radius: 63px;
+    margin-left: 112px;
+    background-color: black;
+    margin-top: 280px;
+}
+
+.twoImage>div>div>h1 {
+    margin-top: 9px;
+    font-size: 25px;
+}
+
+
+.threeImage>div>div {
+    border: 3px solid #bf3d42;
+    height: 50px;
+    width: 50px;
+    border-radius: 63px;
+    margin-left: 112px;
+    background-color: black;
+    margin-top: 200px;
+}
+
+.threeImage>div>div>h1 {
+    margin-top: 9px;
+    font-size: 25px;
+}
+
+.fourImage>div>div {
+    border: 3px solid #bf3d42;
+    height: 50px;
+    width: 50px;
+    border-radius: 63px;
+    margin-left: 112px;
+    background-color: black;
+    margin-top: 160px;
+
+}
+
+.fourImage>div>div>h1 {
+    margin-top: 9px;
+    font-size: 25px;
+}
+
+
+.playMain {
+    width: 100%;
+    height: 650px;
+    background-color: #121212;
+    color: white;
+
+}
+
+
+
+.playMain>div:nth-child(1) {
+
+    gap: 20px;
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.playMain>div:nth-child(2) {
+    text-align: center;
+    width: 80%;
+    margin-top: -33px;
+    line-height: 2;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.playCardMain {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.subChild {
+    width: 30%;
+    height: 200px;
+}
+
+.subChild>div>img {
+    width: 18%;
+    margin: 60px auto;
+    text-align: center;
+    display: flex;
+}
+
+.subChild>div>h1:nth-child(1) {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.playCardMain>div {
+    border: 2px solid #ffffff;
+    width: 100%;
+    height: 190px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.playCardMain>div:hover {
+    border: 2px solid #bf3d42;
+
+}
+
+
+
+
+.playSpan {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.playSpan>button {
+    width: 11%;
+    border-radius: 24px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    border: 3px solid #bf3d42;
+    height: 50px;
+}
+
+.playSpan>button:hover {
+    background-color: #bf3d42;
+    color: white;
+    border: 1px solid black;
+}
+
+
+.ourMain {
+    width: 100%;
+    height: 175px;
+}
+
+.ourMain>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+
+}
+
+.ourMain>div:nth-child(2) {
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.7;
+}
+
+.priceMain {
+    /* border: 1px solid; */
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 2.3;
+    gap: 20px;
+}
+
+.subPrice {
+    border: 2px solid #acacac;
+    height: 260px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.subPrice:hover {
+    border: 2px solid #bf3d42;
+}
+
+.priceMain>div>h3 {
+    margin-top: 20px;
+    color: #bf3d42;
+    font-size: 22px;
+}
+
+.priceMain>div>div {
+    width: 47%;
+    border: none;
+    margin-left: 25%;
+    line-height: 1;
+}
+
+.priceMain>div>h1 {
+    font-size: 40px;
+}
+
+
+.buyButton>button {
+    margin-top: 100px;
+    width: 90%;
+    padding: 15px;
+    border-radius: 35px;
+    background-color: #bf3d42;
+    color: #ffffff;
+    border: 2px solid #bf3d42;
+}
+
+.buyButton>button:hover {
+    background-color: #121212;
+    color: white;
+}
+
+
+.customerHeadingMain {
+    /* border: 1px solid; */
+    width: 100%;
+    margin-top: 200px;
+}
+
+.customerHeadingMain>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+
+.customerMain {
+    /* border: 1px solid; */
+    /* height: 500px; */
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.customerChildOne {
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+.touchHeadingMain>div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+
+.touchMain {
+    /* border: 1px solid; */
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.touchMain>div:nth-child(1) {
+    /* border: 1px solid; */
+    width: 51%;
+    height: 600px;
+}
+
+.touchMain>div>input {
+    padding: 15px;
+    width: 80%;
+    margin: 20px;
+}
+
+.touchMain>div>select {
+    padding: 15px;
+    width: 80%;
+    margin: 20px;
+}
+
+.touchMain>div>textarea {
+    padding: 15px;
+    width: 80%;
+    margin: 20px;
+}
+
+.sendButton>button {
+    width: 35%;
+    padding: 15px;
+    border-radius: 35px;
+    background-color: #bf3d42;
+    color: #ffffff;
+    border: 2px solid #bf3d42;
+    margin: 20px;
+}
+
+.sendButton>button:hover {
+    background-color: #121212;
+    color: white;
+}
+
+
+.footerMain {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 600px;
+    background-color: #252525;
+    transform: translate("100px, 200px");
+}
+
+.footerChild {
+
+    /* border: 1px solid; */
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    /* margin-top: 190px; */
+    padding-top: 190px;
+}
+
+.footerChild>input {
+    padding: 10px;
+    width: 60%;
+    border: 0px;
+    margin-left: 10%;
+    background-color: #252525;
+    color: white;
+}
+
+.border {
+    border: 1px solid white;
+    width: 80%;
+}
+
+label {
+    color: white;
+}
+
+.fbIcon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 22px
+}
+
+.mail {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.contactMain {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+    width: 80%;
+}
+
+
+
+
+@media all and (min-width : 480px) and (max-width : 768px) {
+
+
+
+    .mainHeader {
+        width: 100%;
+    }
+
+    .headerChild {
+        font-size: 20px;
+        width: 90%;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .headerChild>div {
+        width: 220px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .headerChild>div>button {
+        width: 100%;
+    }
+
+    /* ----------- */
+
+    .aboutMain {
+        width: 100%;
+        display: block;
+
+    }
+
+    .aboutChildOne {
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 48%;
+    }
+
+    .aboutChildOne>div:nth-child(1) {
+        align-items: center;
+        width: 300px;
+    }
+
+    .aboutChildOne>div>h1 {
+        font-size: 20px;
+    }
+
+    .aboutChildOne>p {
+        width: 190%;
+    }
+
+    .mediaReadOne {
+        width: 60%;
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .aboutChildOne>div>button {
+        width: 100%;
+    }
+
+    .aboutChildOne>div>button:hover {
+        background-color: #1f1f1f;
+        color: white;
+    }
+
+
+    .aboutChildTwo {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+
+    .aboutChildTwo>div>img {
+        width: 95%;
+    }
+
+    /* -------------- */
+
+    .gameMain {
+        width: 90%;
+        margin-top: 340px;
+    }
+
+    .gameMain>div {
+        gap: 15px;
+        align-items: center;
+    }
+
+    .gameMain>div>h1 {
+        font-size: 18px;
+    }
+
+    .gameMain>p {
+        line-height: 1.7;
+        margin-top: 15px;
+    }
+
+    /* --------- */
+
+    .cardMain {
+        display: block;
+    }
+
+    .cardMain>div:nth-child(1) {
+        width: 100%;
+        height: 489px;
+        background-size: cover;
+    }
+
+
+    .oneImage>div:nth-child(1) {
+        padding-top: 9px;
+    }
+
+    .onePlay {
+        width: 32%;
+    }
+
+    .onePlay>button {
+        width: 100%;
+        float: left;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 0px;
+        margin-top: 60px;
+    }
+
+    .oneImage>div>div>h1 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .oneImage>div>div {
+        margin: 0 auto;
+        margin-top: 290px;
+    }
+
+
+    .cardMain>div:nth-child(2) {
+        width: 100%;
+        height: 376px;
+        background-size: cover;
+
+    }
+
+    .twoImage>div:nth-child(1) {
+        padding-top: 40px;
+        margin-top: 148px;
+    }
+
+    .twoPlay {
+        width: 32%;
+    }
+
+    .twoPlay>button {
+        width: 100%;
+    }
+
+
+    .twoImage>div {
+        margin: auto;
+    }
+
+
+    .twoImage>div>div {
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+
+    .twoImage>div>div>h1 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .cardMain>div>div>h1 {
+        margin-top: 20px;
+    }
+
+    .cardMain>div>div>p {
+        font-size: 13px;
+    }
+
+
+    .cardMain>div:nth-child(3) {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .threeImage>div:nth-child(1) {
+        padding-top: 40px;
+        margin-top: 148px;
+    }
+
+    .threePlay {
+        width: 32%;
+    }
+
+    .threeImage>div {
+        margin: auto;
+    }
+
+    .threePlay>button {
+        width: 100%;
+    }
+
+    .threeImage>div>div {
+        margin: 0 auto;
+        margin-top: 190px;
+    }
+
+    .threeImage>div>div>h1 {
+        margin-top: 9px;
+        font-size: 25px;
+    }
+
+    .cardMain>div:nth-child(4) {
+        width: 100%;
+        height: 228px;
+        background-size: cover;
+
+    }
+
+    .fourImage>div:nth-child(1) {
+        padding-top: 40px;
+        margin-top: 148px;
+    }
+
+    .fourPlay {
+        width: 32%;
+    }
+
+    .fourPlay>button {
+        width: 100%;
+    }
+
+    .fourImage>div>div {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .fourImage>div {
+        margin: auto;
+    }
+
+    .fourImage>div>div>h1 {
+        margin-top: 9px;
+        font-size: 25px;
+    }
+
+    .fourPlay>button:hover {
+        background-color: #bf3d42;
+        color: white;
+        border: 1px solid black;
+    }
+
+    /* ------------------- */
+
+    .playMain {
+        margin-top: 1400px;
+        height: 1460px;
+    }
+
+
+    .playMain>div:nth-child(1) {
+        padding-top: 40px;
+        width: 100%;
+        padding-top: 60px;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .playMain>div:nth-child(2) {
+        width: 80%;
+        margin-top: -33px;
+        line-height: 1.6;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .playCardMain {
+        width: 80%;
+        display: block;
+        gap: 20px;
+    }
+
+    .subChild {
+        width: 30%;
+        height: 200px;
+    }
+
+    .subChild>div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 188px;
+    }
+
+    .subChild>div>img {
+        width: 18%;
+
+    }
+
+    .subChild>div>h1:nth-child(1) {
+        margin-top: 35px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .playCardMain>div {
+        margin-top: 80px;
+    }
+
+    .playSpan {
+        width: 30%;
+        margin: auto;
+        margin-top: 110px;
+    }
+
+    .playSpan>button {
+        width: 100%;
+    }
+
+    /* -------------------- */
+
+
+    .ourMain>div:nth-child(1) {
+        font-size: 12px;
+        align-items: center;
+
+    }
+
+    .ourMain>div:nth-child(2) {
+        width: 100%;
+        line-height: 1.5;
+    }
+
+
+
+
+    .priceMain {
+        display: block;
+    }
+
+    .priceMain>div:nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .subPrice {
+        margin-top: 100px;
+    }
+
+
+    .subPrice>div {
+        width: 47%;
+        border: none;
+        margin-left: 25%;
+        line-height: 1;
+        border: 1px solid;
+    }
+
+    .buyButton {
+        margin-top: 0px;
+    }
+
+
+
+
+
+    .customerHeadingMain {
+        width: 100%;
+        margin-top: 800px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customerMain {
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .customerChildOne {
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    .touchMain {
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .touchMain>div:nth-child(1) {
+        width: 100%;
+        height: 600px;
+    }
+
+    .touchMain>div>input {
+        width: 90%;
+    }
+
+    .touchMain>div>select {
+        width: 90%;
+    }
+
+    .touchMain>div>textarea {
+        width: 90%;
+    }
+
+    .sendButton {
+        width: 30%;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .sendButton>button {
+        width: 100%;
+       
+    }
+    iframe {
+        width: 100%;
+    }
+
+
+
+
+
+    
+.footerMain {
+    width: 100%;
+    height: 760px;
+}
+
+.footerChild {
+    padding-top: 500px;
+}
+
+
+
+.border {
+    width: 100%;
+}
+
+
+.contactMain {
+    margin-top: 30px;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width : 320px) and (max-width : 479px) {
+
+
+
+    .mainHeader {
+        width: 100%;
+    }
+
+    .headerChild {
+        font-size: 15px;
+        width: 90%;
+        line-height: 1.4;
+    }
+
+    .headerChild>div {
+        width: 120px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .headerChild>div>button {
+        width: 100%;
+        height: 40px;
+    }
+
+    /* ----------- */
+
+    .aboutMain {
+        width: 100%;
+        display: block;
+
+    }
+
+    .aboutChildOne {
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 48%;
+    }
+
+    .aboutChildOne>div:nth-child(1) {
+        align-items: center;
+        width: 300px;
+    }
+
+    .aboutChildOne>div>h1 {
+        font-size: 20px;
+    }
+
+    .aboutChildOne>p {
+        width: 180%;
+    }
+
+    .mediaReadOne {
+        width: 90%;
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .aboutChildOne>div>button {
+        width: 100%;
+    }
+
+    .aboutChildOne>div>button:hover {
+        background-color: #1f1f1f;
+        color: white;
+    }
+
+
+    .aboutChildTwo {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+
+    .aboutChildTwo>div>img {
+        width: 95%;
+    }
+
+    /* -------------- */
+
+    .gameMain {
+        width: 90%;
+        margin-top: 390px;
+    }
+
+    .gameMain>div {
+        gap: 15px;
+        align-items: center;
+    }
+
+    .gameMain>div>h1 {
+        font-size: 18px;
+    }
+
+    .gameMain>p {
+        line-height: 1.7;
+        margin-top: 15px;
+    }
+
+    /* --------- */
+
+    .cardMain {
+        display: block;
+    }
+
+    .cardMain>div:nth-child(1) {
+        width: 100%;
+        height: 326px;
+        background-size: cover;
+    }
+
+
+    .oneImage>div:nth-child(1) {
+        padding-top: 9px;
+    }
+
+    .onePlay {
+        width: 32%;
+    }
+
+    .onePlay>button {
+        width: 100%;
+        float: left;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 0px;
+        margin-top: 60px;
+    }
+
+    .oneImage>div>div>h1 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .oneImage>div>div {
+        margin: 0 auto;
+        margin-top: 118px;
+    }
+
+
+    .cardMain>div:nth-child(2) {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+
+    }
+
+    .twoImage>div:nth-child(1) {
+        padding-top: 40px;
+        margin-top: 148px;
+    }
+
+    .twoPlay {
+        width: 32%;
+    }
+
+    .twoPlay>button {
+        width: 100%;
+    }
+
+
+    .twoImage>div {
+        margin: auto;
+    }
+
+
+    .twoImage>div>div {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .twoImage>div>div>h1 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .cardMain>div>div>h1 {
+        margin-top: 20px;
+    }
+
+    .cardMain>div>div>p {
+        font-size: 13px;
+    }
+
+
+    .cardMain>div:nth-child(3) {
+        width: 100%;
+        height: 195px;
+        background-size: cover;
+    }
+
+    .threeImage>div:nth-child(1) {
+        padding-top: 40px;
+        margin-top: 148px;
+    }
+
+    .threePlay {
+        width: 32%;
+    }
+
+    .threeImage>div {
+        margin: auto;
+    }
+
+    .threePlay>button {
+        width: 100%;
+    }
+
+    .threeImage>div>div {
+        margin: 0 auto;
+        margin-top: -30px;
+    }
+
+    .threeImage>div>div>h1 {
+        margin-top: 9px;
+        font-size: 25px;
+    }
+
+    .cardMain>div:nth-child(4) {
+        width: 100%;
+        height: 185px;
+        background-size: cover;
+
+    }
+
+    .fourImage>div:nth-child(1) {
+        padding-top: 40px;
+        margin-top: 148px;
+    }
+
+    .fourPlay {
+        width: 32%;
+    }
+
+    .fourPlay>button {
+        width: 100%;
+    }
+
+    .fourImage>div>div {
+        margin: 0 auto;
+        margin-top: -28px;
+    }
+
+    .fourImage>div {
+        margin: auto;
+    }
+
+    .fourImage>div>div>h1 {
+        margin-top: 9px;
+        font-size: 25px;
+    }
+
+    .fourPlay>button:hover {
+        background-color: #bf3d42;
+        color: white;
+        border: 1px solid black;
+    }
+
+    /* ------------------- */
+
+    .playMain {
+        margin-top: 845px;
+        height: 1460px;
+    }
+
+
+    .playMain>div:nth-child(1) {
+        padding-top: 40px;
+        width: 100%;
+        padding-top: 60px;
+        align-items: center;
+        font-size: 8px;
+    }
+
+    .playMain>div:nth-child(2) {
+        line-height: 1.6;
+        width: 85%;
+        margin-top: 10px;
+    }
+
+
+    .playCardMain {
+        width: 80%;
+        display: block;
+        gap: 20px;
+    }
+
+    .subChild {
+        width: 30%;
+        height: 200px;
+    }
+
+    .subChild>div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 188px;
+    }
+
+    .subChild>div>img {
+        width: 18%;
+
+    }
+
+    .subChild>div>h1:nth-child(1) {
+        margin-top: 35px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .playCardMain>div {
+        margin-top: 80px;
+    }
+
+    .playSpan {
+        width: 30%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    .playSpan>button {
+        width: 100%;
+    }
+
+    /* -------------------- */
+
+
+    .ourMain>div:nth-child(1) {
+        font-size: 12px;
+        align-items: center;
+
+    }
+
+    .ourMain>div:nth-child(2) {
+        width: 100%;
+        line-height: 1.5;
+    }
+
+
+
+
+    .priceMain {
+        display: block;
+    }
+
+    .priceMain>div:nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .subPrice {
+        margin-top: 100px;
+    }
+
+
+    .subPrice>div {
+        width: 47%;
+        border: none;
+        margin-left: 25%;
+        line-height: 1;
+        border: 1px solid;
+    }
+
+    .buyButton {
+        margin-top: 0px;
+    }
+
+
+
+
+
+    .customerHeadingMain {
+        width: 90%;
+        margin-top: 800px;
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customerMain {
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .customerChildOne {
+        line-height: 1.5;
+        width: 100%;
+    }
+
+    .touchMain {
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .touchMain>div:nth-child(1) {
+        width: 100%;
+        height: 600px;
+    }
+
+    .touchMain>div>input {
+        width: 90%;
+    }
+
+    .touchMain>div>select {
+        width: 90%;
+    }
+
+    .touchMain>div>textarea {
+        width: 90%;
+    }
+
+    .sendButton {
+        width: 30%;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .sendButton>button {
+        width: 100%;
+       
+    }
+    iframe {
+        width: 100%;
+    }
+
+
+
+
+
+    
+.footerMain {
+    width: 95%;
+    height: 790px;
+}
+
+.footerChild {
+    padding-top: 500px;
+}
+
+
+
+.border {
+    width: 100%;
+}
+
+
+.contactMain {
+    margin-top: 30px;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+}
